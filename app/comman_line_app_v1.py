@@ -1,6 +1,4 @@
-from traceback import print_tb
 
-from datetime import datetime
 
 def factorial():
     fact = 1
@@ -30,11 +28,10 @@ print("===================================== COMMAND LINE APP ==================
 print("1. Factorial")
 print("2. Sum of Series")
 
-
 while True:
     print("Please enter the app code : ")
     app_code = int(input())
-    print("================== Your entered the app code : ",app_code)
+    print("================== Your entered the app code : ",app_code, type(app_code))
     
     try:
         if app_code == 1:
