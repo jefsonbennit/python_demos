@@ -3,7 +3,7 @@ import sys
 class AppImplememtation:
     def __init__(self) -> None:
         pass
-    def factorial(self):
+    def factorial(self, input_number = 8):
         fact = 1
         n = int(input("Enter a number for finding factorial : "))
         if n > 100:
