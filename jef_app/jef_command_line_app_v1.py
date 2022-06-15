@@ -39,7 +39,6 @@ while True:
     if app_code==1:
        factorial()
     elif app_code==2:
-       sum
        sum_of_series() 
     else :
       print ("you have entered an invalid code")
