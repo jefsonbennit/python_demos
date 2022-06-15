@@ -32,3 +32,10 @@ def main():
 
 
 main()
+
+
+# parameters 
+# parameters are the variable inside the function definition 
+
+# arguments 
+# arguments are the values passed inside a function definition 
