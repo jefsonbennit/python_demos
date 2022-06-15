@@ -12,5 +12,3 @@ def factorial():
     print ("entered input:",entered_input,type(entered_input))
 
 factorial()
-
-# 
